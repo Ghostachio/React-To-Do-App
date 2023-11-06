@@ -2,7 +2,8 @@ import React, {Component} from "react";
 import "./App.css";
 import Form from "./components/Form";
 import TodosList from "./components/TodosList";
-import sun from "./assets/icon-sun.svg"
+import sun from "./assets/icon-sun.svg";
+import background from "../src/assets/bg-desktop-dark.jpg";
 
 class App extends Component {
   constructor() {
@@ -69,7 +70,7 @@ class App extends Component {
     return (
       <div>
         <div className="h-[80px]">
-          <img src="../src/assets/bg-desktop-dark.jpg" alt="" />
+          <img src={background} alt="" />
         </div>
         <div className=" flex justify-evenly items-center text-4xl font-bold p-8 pt-12 z-40">
          <h1 className="text-light-grayish-blue bg-transparent" >T O D O</h1>
