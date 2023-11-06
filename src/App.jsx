@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./app.css";
+import "./App.css";
 import Form from "./components/Form";
 import TodosList from "./components/TodosList";
 import sun from "./assets/icon-sun.svg"
